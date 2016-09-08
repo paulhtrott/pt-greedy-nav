@@ -62,7 +62,7 @@ nav {
   } 
 }
 
-nav ul li a {
+nav ul li a, ul.hidden-links li a {
   display: block;
   padding: 16px 51px;
   background: white;
@@ -73,7 +73,7 @@ nav ul li a {
   white-space: nowrap; /* so text don't wrap */
 }
 
-nav ul li a:hover {
+nav ul li a:hover, ul.hidden-links li a:hover {
   background-color: #f1f1f1;
 }
 

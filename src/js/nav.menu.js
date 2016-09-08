@@ -2,8 +2,8 @@ $(function() {
   var $nav = $('nav');
   var $button = $('nav button');
   var $visibleLinks = $('nav .visible-links');
-  var $hiddenLinks = $('nav .hidden-links');
-  
+  var $hiddenLinks = $('ul.hidden-links');
+
   // Array to hold links width
   var breaks =[];
 
